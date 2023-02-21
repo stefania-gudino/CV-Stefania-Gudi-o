@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="img/icons8-cherry-blossom-48.png"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>CV Stefania Gudiño</title>
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/SG/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">INFORMACION PERSONAL</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">TRAYECTORIA</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/stefania-del-valle-gudino/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/stefania-gudino" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Stefania Gudiño</span>, futura FullStack Developer</h2>
+                <a href="#sobremi">SOBRE MI</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Stefania Gudiño</span> </h2>
+            <p>Soy profesora de Educación Primaria y estoy en busca de otros horizontes descubriendo nuevas habilidades en el mundo IT. Me considero una persona responsable, creativa y dinámica con muchas ganas de aprender.</p>
+            <p>Estoy dispuesta a trabajar en equipo para afrontar los diferentes desafíos y metas trazados por la empresa. Tengo una amplia visión del futuro, adoro los desafíos y ayudar a la mejora continua de los procesos.</p>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">INFORMACION PERSONAL</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-sharp fa-solid fa-circle-info"></i></span>
+                <h4>Nombre Completo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                <li>Stefania Gudiño</li>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-calendar-days"></i></span>
+                <h4>Fecha de nacimiento:</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>6 de marzo de 1993</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-compass"></i></span>
+                <h4>Ubicación</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Córdoba, Córdoba. </li>
+                    <br><li>Argentina</li>
+                </ul>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-language"></i></span>
+                <h4>Idiomas:</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Español: nivel nativo</li>
+                    <li>Inglés: A1</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-clock"></i></span>
+                <h4>Disponibilidad horaria</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Full-time</li>
+                </ul>
+        </div>
+    </section>
+
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+    
+    <section id="portfolio">
+  <div class="sobremi">
+            <p class="titulo-seccion">Formación académica</p>
+            <p>Título terciario:<br>
+                - Profesorado de Educación Primaria - ISFD Reneé Trettel de Fabián, 2017-2022<br>
+                Formación adicional:<br>
+                - Secretariado Administrativo Contable e Impositivo - Academia Santo Domingo, 2018<br>
+                - Facturación médica - Academia Fundaes, 2019</p>
+        </div>
+
+        <p class="titulo-seccion">Trayectoria laboral</p>
+        <p>Aegis Sur Contact Center (Dirección: Sagrada Familia 627, Córdoba)<br>
+            Puesto ocupado: Atención al cliente y Loyalty.<br>
+            Periodo: 2010-2015<br>
+            
+            Blanco Ituzaingó (Dirección: Ituzaingó 350, Córdoba)<br>
+            Puesto ocupado: Cajera. Atención al cliente. Venta de ropa de cama.<br>
+            Periodo: 2016-2022</p>
+    </div>
+    </section>
+
+    
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTO</h3>
+        
+Email: gudinostefania@gmail.com<br>
+Teléfono: +54 9 (0351) 156-348260<br>
+          
+    </section>
+
+    
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/stefania-del-valle-gudino/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/stefania-gudino" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
